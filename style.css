@@ -165,6 +165,11 @@ hr {
   width: 17rem;
 }
 
+.attribution{
+  display: flex; 
+  justify-content: center;
+}
+
 @media (max-width: 769px) {
   .wrapper {
     width: auto;
@@ -202,11 +207,17 @@ hr {
   .nutrition-data span {
     width: 7rem;
   }
+  .attribution{
+    font-size: 60%;
+  }
 }
 
 @media (max-width: 354px){
     .nutrition-data span{
         width: 4rem;
+    }
+    .attribution{
+      font-size: 60%;
     }
 }
 
@@ -224,5 +235,9 @@ hr {
 
     .nutrition p, .nutrition span{
         font-size: .8rem;
+    }
+
+    .attribution{
+      font-size: 60%;
     }
 }
